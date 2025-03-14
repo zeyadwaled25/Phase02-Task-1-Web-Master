@@ -1,0 +1,87 @@
+body {
+  font-family: "Inter", sans-serif;
+}
+
+.navbar .navbar-nav {
+  font-weight: 600;
+}
+.service-section .headline span {
+  display: block;
+  width: 80px;
+  height: 3px;
+  background-color: #1F1F1F;
+  margin-right: 15px;
+  border-radius: 5px;
+}
+.service-section .headline h2 {
+  font-size: 38px;
+}
+.service-section .headline {
+  margin-bottom: 50px;
+}
+.service-section .row .info h4 {
+  font-size: 22px;
+}
+.service-section .row .info p {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.6;
+  color: #545454;
+}
+
+.design-section-1 .row .design-content h3 {
+  font-size: 38px;
+  margin-bottom: 50px;
+}
+.design-section-1 .row .design-content p {
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 1.6;
+  color: #545454;
+  margin-bottom: 60px;
+}
+.design-section-2 .row .design-content .steps .icon {
+  min-width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -15px;
+  position: relative;
+}
+.design-section-2 .row .design-content .steps .icon::after {
+  content: "";
+  width: 80px;
+  border: 1px solid #9B9B9B;
+  rotate: -90deg;
+  position: absolute;
+  bottom: 0;
+  transform: translateX(calc(-50% - 10px));
+}
+.design-section-2 .row .design-content .steps .info h5 {
+  font-size: 22px;
+  font-weight: 700;
+}
+.design-section-2 .row .design-content .steps .info p {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.6;
+  color: #545454;
+}
+
+@media (max-width: 991px) {
+  .testimonial-content div.row {
+    position: relative !important;
+    margin: auto;
+  }
+}
+
+.newsletter-section {
+  margin-bottom: -35px;
+  position: relative;
+  z-index: 7;
+}
+
+footer {
+  padding-top: 5rem;
+}
