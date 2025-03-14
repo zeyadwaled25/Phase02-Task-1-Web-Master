@@ -81,6 +81,9 @@ body {
   position: relative;
   z-index: 7;
 }
+.newsletter-section .sub {
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.4);
+}
 
 footer {
   padding-top: 5rem;
